@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i|Playfair+Display:400,700');
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: 'Lato', sans-serif;
+	font-size: 10px;
+	height: 100vh;
+}
+
+h1 {
+	font-size: 4.2rem;
+	font-family: 'Playfair Display', serif;
+}
+
+.fl::first-letter {
+	font-size: 11rem;
+	font-family: 'Playfair Display', serif;
+}
+
+article {
+	font-size: 1.8rem;
+	font-weight: 300;
+}
+
+blockquote {
+	font-size: 2.4rem;
+	font-style: italic;
+	font-weight: 300;
+}
+
+blockquote::before {
+	content: open-quote;
+	font-size: 6rem;
+}
+
+button {
+	width: 26.5rem;
+	height: 7rem;
+}
